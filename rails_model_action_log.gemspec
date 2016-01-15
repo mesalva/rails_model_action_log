@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = RailsModelActionLog::VERSION
   s.authors     = ["Ricardo Baumann"]
   s.email       = ["ricardo.luis.baumann@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of RailsModelActionLog."
-  s.description = "TODO: Description of RailsModelActionLog."
+  s.homepage    = "https://github.com/mesalva/rails_model_action_log"
+  s.summary     = "RailsModelActionLog."
+  s.description = "RailsModelActionLog."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
