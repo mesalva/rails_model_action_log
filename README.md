@@ -3,7 +3,7 @@
 ## Usage
 1. Add it to your Gemfile
 
-  <strong>gem "rails_model_action_log", git: "https://github.com/ricardobaumann/rails_model_action_log"</strong>
+  <strong>gem "rails_model_action_log", git: "https://github.com/mesalva/rails_model_action_log"</strong>
   
 
 2. Run log_table generator
