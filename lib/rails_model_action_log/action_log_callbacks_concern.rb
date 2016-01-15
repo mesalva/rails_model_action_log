@@ -7,7 +7,7 @@ module ActionLogCallbacksConcerns extend ActiveSupport::Concern
 	end
 
 	def log_create(action="create")
-		Log.create! ({log_model_name: self.class.name, action: "create",log_model_id: self.id, created_at: Time.now, content: self.to_json}) unless self.class.name.eql?("Log") 
+		Log.create! ({log_model_name: self.class.name, action: action,log_model_id: self.id, created_at: Time.now, content: self.to_json}) unless self.class.name.eql?("Log") 
 	end
 
 	def log_update
